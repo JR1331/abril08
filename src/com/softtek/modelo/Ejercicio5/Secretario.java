@@ -12,12 +12,12 @@ public class Secretario implements Empleado{
 
     @Override
     public String getTareas() {
-        return "tareas";
+        return "tareas del secretario";
     }
 
     @Override
     public String getInforme() {
-        return (informe.getInforme());
+        return "informe del secretario"+(informe.getInforme());
     }
 
     public Secretario() {

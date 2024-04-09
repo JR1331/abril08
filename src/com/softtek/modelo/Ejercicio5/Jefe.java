@@ -14,11 +14,11 @@ public class Jefe implements Empleado{
 
     @Override
     public String getTareas() {
-        return "tareas";
+        return "tareas del jefe";
     }
 
     @Override
     public String getInforme() {
-        return (informe.getInforme());
+        return  "Informe del jefe"+(informe.getInforme());
     }
 }

@@ -12,12 +12,12 @@ public class Director implements  Empleado{
 
     @Override
     public String getTareas() {
-        return "tareas";
+        return "tareas del director";
     }
 
     @Override
     public String getInforme() {
-        return (informe.getInforme());
+        return "Informe del jefe"+(informe.getInforme());
     }
 
 

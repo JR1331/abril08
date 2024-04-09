@@ -11,6 +11,7 @@ public class Coche implements IVehiculo{
         this.deposito = deposito;
     }
 
+    @Override
     public String moverse(){
         if(deposito>0){
             return "El coche se mueve";
